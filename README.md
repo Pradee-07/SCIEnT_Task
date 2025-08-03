@@ -86,4 +86,4 @@ This web project serves as an interactive portal for students to explore researc
 
 ## ✨ Credits
 
-Developed for SCIEnT (Scientific and Industrial Research Organization), NIT Trichy.
+Developed for SCIEnT (Students Center for Innovation in Engineering and Technology), NIT Trichy.
