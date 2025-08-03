@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="icon" href="img/scient.webp">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/29d56c5716.js" crossorigin="anonymous"></script> 
+    <link rel="stylesheet" type="text/css" href="application.css">
+    <script src="script.js"></script>
+    <title>Application Form</title>
+</head>
+<body>
+    <div class="container">
+        <h1 style="text-align: center;">Application Form</h1>
+    <div class="fields">
+         <label for="Rollno" class="label">Roll No:</label><br>
+        <input id="Rollno" placeholder="106124085"><br>
+        <label for="Department"class="label">Department:</label><br>
+        <input id="Department" placeholder="CSE"><br>
+        <label for="Course" class="label">Course:</label>
+        <select id="Course" >
+            <option value="BTech">B.Tech</option>
+            <option value="BSc">BSc</option>
+            <option value="MTech">M.Tech</option>
+            <option value="PhD">PhD</option>
+        </select><br>
+        <label for="year" class="label">Year:</label>
+        <select id="year" >
+            <option value="1st year">1st year</option>
+            <option value="2st year">2st year</option>
+            <option value="3st year">3st year</option>
+            <option value="4st year">4st year</option>
+        </select><br>
+         <label for="email" class="label">Web-mail:</label><br>
+        <input id="email" type="email" placeholder="106124085@nitt.edu"><br>
+    </div>
+       <button id="button" onclick="apply()">Apply</button>
+    </div>
+
+</body>
+</html>

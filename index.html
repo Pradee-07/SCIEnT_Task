@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SCIEnT_Portal</title>
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <link rel="icon" href="img/scient.webp">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/29d56c5716.js" crossorigin="anonymous"></script>  
+    <script src="script.js"></script>
+</head>
+<body>
+    <header>
+        <nav class="nav">
+            <div class="logobox">
+                <a href="https://www.nitt.edu/" target="_blank"><img class="logo" src="img/nitt.png" alt="Nitt-logo"></a>
+                <a href="https://scient.nitt.edu/" target="_blank"><img  class="logo" src="img/scient.webp" alt="SCIEnt-logo"></a>
+                </div>
+            <div class="pagelocator">
+                <h2 class="h"><a href="#home" class="h">HOME</a></h2>
+                <h2 class="h"><a href="#Projects" class="h">PROJECTS</a></h2>
+                <h2 class="h"><a href="#cus" class="h">CONTACT US</a></h2>
+            </div>
+        </nav>
+    </header> 
+    <div id="home">
+           <h2 id="welcome">Welcome to the Research Portal</h2>
+           <p>Explore faculty-led research projects and apply to work on them!</p>
+    </div>
+    <div class="projects"  id="Projects">
+        <h2 id="heading">PROJECTS</h2>
+        <div class="container">
+            <div class="row">
+            <div class="projectcard">
+                <img src="img/prof.jpg" class="img">
+                <ul class="projectinfo">
+                    <li><big>Autonomous Drone Navigation </big></li>
+                    <li><big>Professor : </big>Dr. S. Natarajan</li>
+                    <li><big>Domain    :</big> Robotics & AI</li>
+                    <li><button class="viewbtn" onclick="openModal('modal1')">View Details</button></li>
+                </ul>
+                </div>
+                <div id="modal1" class="modal">
+                <div class="modal-content">
+                    <span class="close" onclick="closeModal('modal1')"><i class="fa-solid fa-xmark" id="csymbol"></i></span>
+                    <h2 style="text-align: center;" class="content">Autonomous Drone Navigation</h2>
+                    <p  class="content">This project focuses on building an autonomous drone using computer vision
+                         and AI algorithms. Students will work on navigation, obstacle avoidance, and real-time decision making.</p>
+                    <p  class="content"><big>Skills Required:</big> Python, OpenCV, ML basics</p>
+                    <p  class="content"><big>Slots Available:</big> 2</p>
+                    <button class="apply_now" onclick="open_login()">Apply Now</button>
+                </div>
+                </div>
+                <div class="projectcard">
+                <img src="img/p2.jpg" class="img">
+                <ul class="projectinfo">
+                    <li><big>AI for Health Monitoring</big></li>
+                    <li><big>Professor : </big>Dr. A. Kumar</li>
+                    <li><big>Domain    :</big>Artificial Intelligence</li>
+                    <li><button class="viewbtn" onclick="openModal('modal2')">View Details</button></li>
+                </ul>
+                </div>
+                <div id="modal2" class="modal">
+                <div class="modal-content" id="right_modal">
+                    <span class="close" onclick="closeModal('modal2')"><i class="fa-solid fa-xmark" id="csymbol"></i></span>
+                    <h2 style="text-align: center;" class="content">Autonomous Drone Navigation</h2>
+                    <p  class="content">This project focuses on building an autonomous drone using computer vision
+                         and AI algorithms. Students will work on navigation, obstacle avoidance, and real-time decision making.</p>
+                    <p  class="content"><big>Skills Required:</big> Python, OpenCV, ML basics</p>
+                    <p  class="content"><big>Slots Available:</big> 2</p>
+                    <button class="apply_now" onclick="open_login()">Apply Now</button>
+                </div>
+                </div>
+            </div>
+            <div class="row">
+            <div class="projectcard">
+                <img src="img/prof.jpg" class="img">
+                <ul class="projectinfo">
+                    <li><big>Climate Data Visualization </big></li>
+                    <li><big>Professor : </big>Dr. R. Iyer</li>
+                    <li><big>Domain    :</big> Robotics & AI</li>
+                    <li><button class="viewbtn" onclick="openModal('modal3')">View Details</button></li>
+                </ul>
+                </div>
+                <div id="modal3" class="modal">
+                <div class="modal-content">
+                    <span class="close" onclick="closeModal('modal3')"><i class="fa-solid fa-xmark" id="csymbol"></i></span>
+                    <h2 style="text-align: center;" class="content">Autonomous Drone Navigation</h2>
+                    <p  class="content">This project focuses on building an autonomous drone using computer vision
+                         and AI algorithms. Students will work on navigation, obstacle avoidance, and real-time decision making.</p>
+                    <p  class="content"><big>Skills Required:</big> Python, OpenCV, ML basics</p>
+                    <p  class="content"><big>Slots Available:</big> 2</p>
+                    <button class="apply_now" onclick="open_login()">Apply Now</button>
+                </div>
+                </div>
+                <div class="projectcard">
+                <img src="img/prof.jpg" class="img">
+                <ul class="projectinfo">
+                    <li><big>AI for Health Monitoring</big></li>
+                    <li><big>Professor : </big>Dr. S. Natarajan</li>
+                    <li><big>Domain    :</big> Robotics & AI</li>
+                    <li><button class="viewbtn" onclick="openModal('modal4')">View Details</button></li>
+                </ul>
+                </div>
+                <div id="modal4" class="modal">
+                <div class="modal-content" id="right_modal">
+                    <span class="close" onclick="closeModal('modal4')"><i class="fa-solid fa-xmark" id="csymbol"></i></span>
+                    <h2 style="text-align: center;" class="content">Autonomous Drone Navigation</h2>
+                    <p  class="content">This project focuses on building an autonomous drone using computer vision
+                         and AI algorithms. Students will work on navigation, obstacle avoidance, and real-time decision making.</p>
+                    <p  class="content"><big>Skills Required:</big> Python, OpenCV, ML basics</p>
+                    <p  class="content"><big>Slots Available:</big> 2</p>
+                    <button class="apply_now" onclick="open_login()">Apply Now</button>
+                </div>
+                </div>
+            </div>
+            <div class="row">
+            <div class="projectcard">
+                <img src="img/prof.jpg" class="img">
+                <ul class="projectinfo">
+                    <li><big>Autonomous Drone Navigation </big></li>
+                    <li><big>Professor : </big>Dr. S. Natarajan</li>
+                    <li><big>Domain    :</big> Robotics & AI</li>
+                    <li><button class="viewbtn" onclick="openModal('modal5')">View Details</button></li>
+                </ul>
+                </div>
+                <div id="modal5" class="modal">
+                <div class="modal-content">
+                    <span class="close" onclick="closeModal('modal5')"><i class="fa-solid fa-xmark" id="csymbol"></i></span>
+                    <h2 style="text-align: center;" class="content">Autonomous Drone Navigation</h2>
+                    <p  class="content">This project focuses on building an autonomous drone using computer vision
+                         and AI algorithms. Students will work on navigation, obstacle avoidance, and real-time decision making.</p>
+                    <p  class="content"><big>Skills Required:</big> Python, OpenCV, ML basics</p>
+                    <p  class="content"><big>Slots Available:</big> 2</p>
+                    <button class="apply_now" onclick="open_login()">Apply Now</button>
+                </div>
+                </div>
+                <div class="projectcard">
+                <img src="img/prof.jpg" class="img">
+                <ul class="projectinfo">
+                    <li><big>AI for Health Monitoring</big></li>
+                    <li><big>Professor : </big>Dr. S. Natarajan</li>
+                    <li><big>Domain    :</big> Robotics & AI</li>
+                    <li><button class="viewbtn" onclick="openModal('modal6')">View Details</button></li>
+                </ul>
+                </div>
+                <div id="modal6" class="modal">
+                <div class="modal-content" id="right_modal">
+                    <span class="close" onclick="closeModal('modal6')"><i class="fa-solid fa-xmark" id="csymbol"></i></span>
+                    <h2 style="text-align: center;" class="content">Autonomous Drone Navigation</h2>
+                    <p  class="content">This project focuses on building an autonomous drone using computer vision
+                         and AI algorithms. Students will work on navigation, obstacle avoidance, and real-time decision making.</p>
+                    <p  class="content"><big>Skills Required:</big> Python, OpenCV, ML basics</p>
+                    <p  class="content"><big>Slots Available:</big> 2</p>
+                    <button class="apply_now" onclick="open_login()">Apply Now</button>
+                </div>
+                </div>
+            </div>
+                <div class="row">
+            <div class="projectcard">
+                <img src="img/prof.jpg" class="img">
+                <ul class="projectinfo">
+                    <li><big>Autonomous Drone Navigation </big></li>
+                    <li><big>Professor : </big>Dr. S. Natarajan</li>
+                    <li><big>Domain    :</big> Robotics & AI</li>
+                    <li><button class="viewbtn" onclick="openModal('modal7')">View Details</button></li>
+                </ul>
+                </div>
+                <div id="modal7" class="modal">
+                <div class="modal-content">
+                    <span class="close" onclick="closeModal('modal7')"><i class="fa-solid fa-xmark" id="csymbol"></i></span>
+                    <h2 style="text-align: center;" class="content">Autonomous Drone Navigation</h2>
+                    <p  class="content">This project focuses on building an autonomous drone using computer vision
+                         and AI algorithms. Students will work on navigation, obstacle avoidance, and real-time decision making.</p>
+                    <p  class="content"><big>Skills Required:</big> Python, OpenCV, ML basics</p>
+                    <p  class="content"><big>Slots Available:</big> 2</p>
+                    <button class="apply_now" onclick="open_login()">Apply Now</button>
+                </div>
+                </div>
+                <div class="projectcard">
+                <img src="img/prof.jpg" class="img">
+                <ul class="projectinfo">
+                    <li><big>AI for Health Monitoring</big></li>
+                    <li><big>Professor : </big>Dr. S. Natarajan</li>
+                    <li><big>Domain    :</big> Robotics & AI</li>
+                    <li><button class="viewbtn" onclick="openModal('modal8')">View Details</button></li>
+                </ul>
+                </div>
+                <div id="modal8" class="modal">
+                <div class="modal-content" id="right_modal">
+                    <span class="close" onclick="closeModal('modal8')"><i class="fa-solid fa-xmark" id="csymbol"></i></span>
+                    <h2 style="text-align: center;" class="content">Autonomous Drone Navigation</h2>
+                    <p  class="content">This project focuses on building an autonomous drone using computer vision
+                         and AI algorithms. Students will work on navigation, obstacle avoidance, and real-time decision making.</p>
+                    <p  class="content"><big>Skills Required:</big> Python, OpenCV, ML basics</p>
+                    <p  class="content"><big>Slots Available:</big> 2</p> 
+                    <button class="apply_now" onclick="open_login()">Apply Now</button>  
+                </div>
+                </div>
+            </div>
+        </div>
+     </div>
+     <footer >
+        <div class="footer">
+            <img style="height:200px;width: auto;" class="d1" id="logo" src="img/scient.webp" alt="SCIEnt-logo">
+            <div id="last">
+                <h4 class="heading" style="font-size: xx-large;" id="cus">CONTACT US</h4>
+            <ul style="text-align: center;list-style-type: none;">
+                <li>Email : scient@nitt.edu</li>
+                <li>Ph.No : 6379935816</li>
+                <li>NIT Trichy</li>
+                <li>
+                    <lr><a href="https://www.instagram.com/scient_nitt/" target="_blank"><i class="fa-brands fa-instagram" id="insta"></i></a></lr>
+                    <lr><a href="https://www.youtube.com/@scientnitt6890" target="_blank"><i class="fa-brands fa-youtube" id="utube"></i></a></lr>
+                    <lr><a href="https://www.facebook.com/ScientNITT/" target="_blank"><i class="fa-brands fa-facebook" id="fb"></i></a></lr>
+                    <lr><a href="https://in.linkedin.com/company/scientnitt" target="_blank"><i class="fa-brands fa-linkedin" id="linkedin"></i></a></lr>
+                </li>
+            </ul>
+            <p>
+                 Copyright © 2025<br> SCIEnT, NIT Trichy
+                </p>
+            </div>
+        </div>
+    </footer> 
+</body>
+</html>

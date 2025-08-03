@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    transition: all 0.3s ease;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-image: url("img/bg_new.webp");
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    border-radius: 20px;
+    margin-top: 12%;
+    background-color: hsla(0, 0%, 100%, 0.12);
+     backdrop-filter: blur(6px);
+     padding: 2%;
+     width: 33.33%;
+     box-shadow: 1px 1px 10px 1px hsl(0, 0%, 25%);
+}
+.fields{
+    padding: 1%;
+}
+#Rollno{
+    width: 100%;
+    border-radius: 15px;
+    height: 33.33px;
+    padding: 2%;
+    margin: 2%;
+    border: 2px hsl(0, 0%, 100%) solid;
+}
+#Department{
+    width: 100%;
+    border-radius: 15px;
+    height: 33.33px;
+    border: 2px hsl(0, 0%, 100%) solid;
+    padding: 2%;
+    margin: 2%;
+}
+.label{
+    font-size: large;
+    padding: 5%;
+}
+#Course{
+    height: 33.33px;
+    border-radius: 15px;
+
+    padding: 2%;
+    width: 22%;
+    margin: 2%;
+}
+#year{
+    height: 35px;
+    width: 22%;
+    border-radius: 15px;
+    padding: 2%;
+    margin-top: 1%;
+    margin: 2%;
+    margin-left: 6.87%;
+}
+#email{
+    width: 100%;
+    border-radius: 15px;
+    height: 33.33px;
+    border: 2px hsl(0, 0%, 100%) solid;
+    padding: 2%;
+    margin: 2%;
+}
+#button{
+    margin: 0 35%;
+    width: 30%;
+    border-radius: 15px;
+    padding: 1%;
+    font-size: large;
+    text-align: center;
+    background-color: hsl(39, 100%, 80%);
+}
+#button:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+    background-color: hsl(39, 100%, 59%);
+    box-shadow: 1px 1px 5px 1px hsl(33, 100%, 72%);
+}
+#button:active{
+    transform: translateY(10px);
+    box-shadow: 0;
+}
